@@ -1,4 +1,4 @@
-.{
+*{
     margin:0;
     font-family: Arial;
     border: border-box;
@@ -7,6 +7,24 @@
 .navbar{
     height: 60px;
     background-color: #0f1111;
-    
-
+    display: flex;  /*Everything in navbar will come in a single line*/
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.mytext{
+    color:white;
 }
